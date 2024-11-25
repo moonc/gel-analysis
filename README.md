@@ -5,7 +5,7 @@ fetch.ipynb is responsible to extract images from a pdf. You can drop in all pdf
 
 #Pre-Processing 2D Images for TransUnet Analysis
 Eventual processing pipeline should look like:
-'''bash
+```bash
 project/
 ├── dataset/                          # Root dataset directory
 │   ├── raw_images/                   # Original images (e.g., .png, .jpg)
@@ -43,5 +43,5 @@ project/
 │   │   └── ...
 │   └── ...
 └── README.md                         # Documentation for the pipeline
-'''
+```
 Please note the majority of this infrastructure is derived from the original TransUnet repository.
