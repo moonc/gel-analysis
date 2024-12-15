@@ -29,10 +29,9 @@ project/
 │   │   ├── test.txt                  # List of sample names for testing
 │   │   └── ...
 ├── src/                              # Source code for the pipeline
-│   ├── preprocess_images.py          # Script to preprocess images
-│   ├── generate_masks.py             # Script to generate label masks
-│   ├── dataset_class.py              # Dataset class for PyTorch
-│   ├── verify_masks.py               # Script to verify the pipeline
+│   ├── preprocess_images.py          # Script to preprocess images and masks
+│   ├── 2d_dataset_gel.py            # Dataset class for PyTorch
+│   ├── test.py               # Script to verify the pipeline
 │   └── ...
 ├── outputs/                          # Outputs from training/inference
 │   ├── logs/                         # Logs for training
